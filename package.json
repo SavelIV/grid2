@@ -1,0 +1,31 @@
+{
+  "name": "not-simple-gulp-start",
+  "version": "1.0.0",
+  "description": "Not Simple Gulp Start Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igor",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "cache": "^2.3.1",
+    "clean-css": "^4.2.3",
+    "del": "^5.1.0",
+    "ftp": "^0.3.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cache": "^1.1.3",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "imagemin": "^7.0.1",
+    "vinyl-ftp": "^0.6.1"
+  }
+}

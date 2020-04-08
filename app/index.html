@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS Grid2 Example</title>
+    <meta name="description" content="CSS Grid2 Example" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <header class="main-header grid" style="background-image: url(img/0-header.jpg);">
+      <div class="header-content grid">
+        <h1>Are You Ready To Collaborate?</h1>
+        <div class="header-buttons">
+          <a href="#formsection" class="button">I am Ready</a>
+          <a href="#section-ready" class="button button-gray">I am Not Sure</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="portfolio-section grid">
+      <div class="portfolio-item grid" style="background-image: url(img/1.jpg);">
+        <span>My technology stack:</span>
+      </div>
+      <div class="portfolio-item grid" style="background-image: url(img/2.jpg);">
+        <span>HTML5</span>
+      </div>
+      <div class="portfolio-item grid" style="background-image: url(img/3.jpg);">
+        <span>CSS3</span>
+      </div>
+      <div class="portfolio-item grid" style="background-image: url(img/4.jpg);">
+        <span>PHP7</span>
+      </div>
+      <div class="portfolio-item grid" style="background-image: url(img/5.jpg);">
+        <span>Yii2</span>
+      </div>
+      <div class="portfolio-item grid" style="background-image: url(img/6.jpg);">
+        <span>MySQL</span>
+      </div>
+      <div class="portfolio-item grid" style="background-image: url(img/7.jpg);">
+        <span>JQuery</span>
+      </div>
+      <div class="portfolio-item grid" style="background-image: url(img/8.jpg);">
+        <span>JavaScript</span>
+      </div>
+      <div class="portfolio-item grid" style="background-image: url(img/9.jpg);">
+        <span>In the eternal process of learning new...</span>
+      </div>
+      <div class="buttoncase text-center">
+        <a href="https://saviv.site" class="button">View Portfolio</a>
+      </div>
+    </section>
+
+    <section id="section-ready" class="section-ready landing-section">
+      <div class="container grid">
+        <div class="ready-left">
+          <h2>I am a Web-Developer <br />Who Cares.</h2>
+          <p>
+            I am trying to be helping hand in the world of Web Development for my clients.
+            Cooperatively with my clients, we move towards a successful solution. And this is how
+            the efficient working process should flow. Being a fan of the “think-before-you-act”
+            approach, I prefer to spend some time figuring out a bigger picture of your task/problem
+            before diving into coding. This will prevent you from lots of redos in the future, thus
+            saving our time and your money.
+          </p>
+          <p>
+            In my work I strive for the following principles:
+          </p>
+          <p>- End product needs to solve a problem</p>
+          <p>
+            - My client should feel safe and involved in the process (seeing intermediate results,
+            getting instructions, etc)
+          </p>
+          <p>
+            - To be independent as a developer and free my clients' brains from thinking and caring
+            too much about things that are my responsibility.
+          </p>
+        </div>
+        <div class="ready-right">
+          <img src="img/example.jpg" alt="Example" class="img-responsive" />
+        </div>
+      </div>
+    </section>
+
+    <section id="formsection" class="formsection">
+      <div class="contaner">
+        <form id="contact-form" method="POST" class="grid">
+          <div class="success"><span>Thank You!</span></div>
+          <div>
+            <input type="text" id="c_name" name="c_name" placeholder="Your Name..." required />
+          </div>
+          <div>
+            <input type="email" id="c_email" name="c_email" placeholder="Your Email..." required />
+          </div>
+          <div>
+            <input
+              type="text"
+              id="c_message"
+              name="c_message"
+              placeholder="I am Ready to..."
+              required
+            />
+          </div>
+          <div><button class="button" type="submit">Yes! I am Ready!</button></div>
+
+          <div class="ajax-response"></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="landing-section section-blog">
+      <div class="container">
+        <h2>Are You Ready To Read About My Services ?</h2>
+        <div class="blog-home grid">
+          <a href="#" class="blog-item grid">
+            <span class="blog-item-img" style="background-image: url(img/2.jpg);"></span>
+            <span class="blog-item-content grid">
+              <h4>I Build Responsive Landing Pages</h4>
+              <p>
+                Development of flexible responsive layouts with using bootstrap/flexbox and grid
+                elements.
+              </p>
+            </span>
+          </a>
+          <a href="#" class="blog-item grid">
+            <span class="blog-item-img" style="background-image: url(img/3.jpg);"></span>
+            <span class="blog-item-content grid">
+              <h4>I Develope Websites</h4>
+              <p>
+                Modern Website Development, both front-end (HTML/CSS/JQuery) and backend (PHP, Yii2,
+                MySQL): from scratch, revamp, update, customize and other forms.
+              </p>
+            </span>
+          </a>
+          <a href="#" class="blog-item grid">
+            <span class="blog-item-img" style="background-image: url(img/4.jpg);"></span>
+            <span class="blog-item-content grid">
+              <h4>I Make Translation Of Websites To Russian</h4>
+              <p>
+                Big experience of translating websites and video games from English to Russian.
+              </p>
+            </span>
+          </a>
+          <a href="#" class="blog-item grid">
+            <span class="blog-item-img" style="background-image: url(img/6.jpg);"></span>
+            <span class="blog-item-content grid">
+              <h4>I Provide Consulting Service</h4>
+              <p>
+                Resolving any issues with problem websites of my clients.
+              </p>
+            </span>
+          </a>
+          <a href="#" class="blog-item grid">
+            <span class="blog-item-img" style="background-image: url(img/7.jpg);"></span>
+            <span class="blog-item-content grid">
+              <h4>I Host And Maintain My Clients Websites</h4>
+              <p>
+                Any help to my clients with set up their own hosting account. I have my own hosting
+                account, where I set up websites for my clients, temporarily.
+              </p>
+            </span>
+          </a>
+          <a href="#" class="blog-item grid">
+            <span class="blog-item-img" style="background-image: url(img/9.jpg);"></span>
+            <span class="blog-item-content grid">
+              <h4>Maybe I have Something New For You</h4>
+              <p>
+                I am a quick learner and I really enjoy learning something new on every project I
+                work on.
+              </p>
+            </span>
+          </a>
+          <div class="buttoncase text-center">
+            <a href="https://saviv.site" class="button">View Portfolio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-logo">Maybe You Are <span>Not Ready Yet?</span></div>
+        <div class="footer-copy">-©-</div>
+      </div>
+    </footer>
+
+    <script src="js/scripts.min.js"></script>
+  </body>
+</html>
